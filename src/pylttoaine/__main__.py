@@ -22,7 +22,7 @@ from pylttoaine import (
 from pylttoaine.models import City, Coordinates, Prices, Station
 
 
-async def main() -> None:  # pylint: disable=too-many-branches,too-many-locals,too-many-statements
+async def run_cli() -> None:  # pylint: disable=too-many-branches,too-many-locals,too-many-statements
     """Run the CLI."""
 
     parser = argparse.ArgumentParser(prog=__package__)
@@ -117,6 +117,11 @@ async def main() -> None:  # pylint: disable=too-many-branches,too-many-locals,t
                 print(entry)
 
 
-if __name__ == "__main__":
+def main() -> None:
+    """Set up event loop and run entry point."""
     loop = asyncio.get_event_loop()
-    loop.run_until_complete(main())
+    loop.run_until_complete(run_cli())
+
+
+if __name__ == "__main__":
+    main()
