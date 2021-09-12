@@ -1,0 +1,8 @@
+*.egg-info/
+*~
+/.python-version
+/.tox/
+/build/
+/dist/
+/pip-wheel-metadata/
+__pycache__/

@@ -1,0 +1,41 @@
+interactions:
+- request:
+    body:
+      Id: 2799
+      NotifiedDay: 2
+      Price1: 1.729
+      Price2: 1.639
+      Price3: 1.514
+    headers: {}
+    method: POST
+    uri: https://www.omamobiili.com/pa_api/Station/SendPricesAPI2
+  response:
+    body:
+      string: "success;Tiedot l\xE4hetetty. Tiedot pyrit\xE4\xE4n p\xE4ivitt\xE4m\xE4\xE4n
+        n.30min sis\xE4ll\xE4.;"
+    headers:
+      Access-Control-Allow-Headers:
+      - Origin, Content-Type, Accept
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Request-Method:
+      - POST
+      Cache-Control:
+      - private
+      Content-Length:
+      - '81'
+      Content-Type:
+      - text/html; charset=utf-8
+      Date:
+      - Mon, 05 Apr 2021 18:55:29 GMT
+      Server:
+      - Microsoft-IIS/8.5
+      X-AspNet-Version:
+      - 4.0.30319
+      X-AspNetMvc-Version:
+      - '4.0'
+    status:
+      code: 200
+      message: OK
+    url: https://www.omamobiili.com/pa_api/Station/SendPricesAPI2
+version: 1

@@ -1,0 +1,38 @@
+interactions:
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://www.omamobiili.com/pa_api/Station/GetStationsKuntaNameWithEmpty?cityId=59.723056/22.498889&kuntaNimi=L%C3%A4himm%C3%A4t+asemat&isCity=1
+  response:
+    body:
+      string: "System.NullReferenceException: Object reference not set to an instance
+        of an object.\r\n   at pa_api.pa_api.StationController.GetStationsKuntaNameWithEmpty(String
+        kuntaNimi, String isCity, String fuelChoice1, String fuelChoice2, String fuelChoice3,
+        String cityId, String testing) "
+    headers:
+      Access-Control-Allow-Headers:
+      - Origin, Content-Type, Accept
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Request-Method:
+      - POST
+      Cache-Control:
+      - private
+      Content-Length:
+      - '278'
+      Content-Type:
+      - text/html; charset=utf-8
+      Date:
+      - Sat, 03 Apr 2021 07:32:58 GMT
+      Server:
+      - Microsoft-IIS/8.5
+      X-AspNet-Version:
+      - 4.0.30319
+      X-AspNetMvc-Version:
+      - '4.0'
+    status:
+      code: 200
+      message: OK
+    url: https://www.omamobiili.com/pa_api/Station/GetStationsKuntaNameWithEmpty?cityId=59.723056/22.498889&kuntaNimi=L%C3%A4himm%C3%A4t+asemat&isCity=1
+version: 1

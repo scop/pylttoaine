@@ -1,0 +1,36 @@
+interactions:
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://www.omamobiili.com/pa_api/Station/GetCities
+  response:
+    body:
+      string: "518;Ahvenanmaa/\xC5land;true\n520;Akaa;true\n2;Alaj\xE4rvi;true\n4;Alavieska;true\n5;Alavus;true\n8;Asikkala;true\n10;Askola;true\n11;Aura;true\n12;Br\xE4nd\xF6;true\n14;Ecker\xF6;true\n17;Enonkoski;true\n18;Enonteki\xF6;true\n19;Espoo;true\n20;Eura;true\n21;Eurajoki;true\n22;Evij\xE4rvi;true\n23;Forssa;true\n24;Haapaj\xE4rvi;true\n25;Haapavesi;true\n26;Hailuoto;true\n28;Halsua;true\n29;Hamina;true\n30;Hankasalmi;true\n31;Hanko;true\n32;Harjavalta;true\n33;Hartola;true\n34;Hattula;true\n38;Hausj\xE4rvi;true\n39;Heinola;true\n40;Hein\xE4vesi;true\n41;Helsinki;true\n43;Hirvensalmi;true\n44;Hollola;true\n45;Honkajoki;true\n46;Huittinen;true\n47;Humppila;true\n48;Hyrynsalmi;true\n49;Hyvink\xE4\xE4;true\n50;H\xE4meenkoski;true\n51;H\xE4meenkyr\xF6;true\n52;H\xE4meenlinna;true\n53;Ii;true\n54;Iisalmi;true\n55;Iitti;true\n56;Ikaalinen;true\n57;Ilmajoki;true\n58;Ilomantsi;true\n59;Imatra;true\n60;Inari;true\n62;Inkoo;true\n63;Isojoki;true\n64;Isokyr\xF6;true\n66;Jalasj\xE4rvi;true\n67;Janakkala;true\n68;Joensuu;true\n69;Jokioinen;true\n70;Joroinen;true\n71;Joutsa;true\n73;Juankoski;true\n75;Juuka;true\n76;Juupajoki;true\n77;Juva;true\n78;Jyv\xE4skyl\xE4;true\n80;J\xE4mij\xE4rvi;true\n81;J\xE4ms\xE4;true\n84;J\xE4rvenp\xE4\xE4;true\n85;Kaarina;true\n86;Kaavi;true\n87;Kajaani;true\n88;Kalajoki;true\n90;Kangasala;true\n91;Kangasniemi;true\n92;Kankaanp\xE4\xE4;true\n93;Kannonkoski;true\n94;Kannus;true\n95;Karijoki;true\n99;Karkkila;true\n100;Karstula;true\n102;Karvia;true\n103;Kaskinen;true\n104;Kauhajoki;true\n105;Kauhava;true\n106;Kauniainen;true\n107;Kaustinen;true\n108;Keitele;true\n109;Kemi;true\n110;Kemij\xE4rvi;true\n111;Keminmaa;true\n526;Kemi\xF6nsaari;true\n113;Kempele;true\n114;Kerava;true\n118;Keuruu;true\n119;Kihni\xF6;true\n124;Kinnula;true\n125;Kirkkonummi;true\n127;Kitee;true\n128;Kittil\xE4;true\n130;Kiuruvesi;true\n131;Kivij\xE4rvi;true\n133;Kokem\xE4ki;true\n134;Kokkola;true\n135;Kolari;true\n136;Konnevesi;true\n137;Kontiolahti;true\n509;Korsn\xE4s;true\n141;Koski
+        Tl;true\n142;Kotka;true\n143;Kouvola;true\n144;Kristiinankaupunki;true\n502;Kruunupyy;true\n146;Kuhmo;true\n147;Kuhmoinen;true\n149;Kuopio;true\n150;Kuortane;true\n151;Kurikka;true\n153;Kustavi;true\n154;Kuusamo;true\n158;Kyyj\xE4rvi;true\n160;K\xE4rk\xF6l\xE4;true\n161;K\xE4rs\xE4m\xE4ki;true\n492;K\xF6yli\xF6;true\n162;Lahti;true\n163;Laihia;true\n164;Laitila;true\n166;Lapinj\xE4rvi;true\n167;Lapinlahti;true\n168;Lappaj\xE4rvi;true\n169;Lappeenranta;true\n171;Lapua;true\n172;Laukaa;true\n173;Lavia;true\n176;Lemi;true\n177;Lemp\xE4\xE4l\xE4;true\n179;Lepp\xE4virta;true\n180;Lestij\xE4rvi;true\n181;Lieksa;true\n182;Lieto;true\n184;Liminka;true\n185;Liperi;true\n186;Lohja;true\n188;Loimaa;true\n190;Loppi;true\n191;Loviisa;true\n503;Luhanka;true\n192;Lumijoki;true\n194;Luum\xE4ki;true\n195;Luvia;true\n490;Maalahti;true\n199;Maaninka;true\n201;Marttila;true\n202;Masku;true\n204;Merij\xE4rvi;true\n205;Merikarvia;true\n207;Miehikk\xE4l\xE4;true\n209;Mikkeli;true\n211;Muhos;true\n212;Multia;true\n213;Muonio;true\n214;Mustasaari;true\n215;Muurame;true\n217;Myn\xE4m\xE4ki;true\n218;Myrskyl\xE4;true\n219;M\xE4nts\xE4l\xE4;true\n527;M\xE4ntt\xE4-Vilppula;true\n221;M\xE4ntyharju;true\n222;Naantali;true\n223;Nakkila;true\n224;Nastola;true\n227;Nivala;true\n228;Nokia;true\n230;Nousiainen;true\n231;Nummi-Pusula;true\n232;Nurmes;true\n233;Nurmij\xE4rvi;true\n235;N\xE4rpi\xF6;true\n237;Orimattila;true\n238;Orip\xE4\xE4;true\n239;Orivesi;true\n240;Oulainen;true\n241;Oulu;true\n243;Outokumpu;true\n244;Padasjoki;true\n245;Paimio;true\n246;Paltamo;true\n531;Parainen;true\n248;Parikkala;true\n249;Parkano;true\n251;Pelkosenniemi;true\n252;Pello;true\n253;Perho;true\n257;Pertunmaa;true\n259;Pet\xE4j\xE4vesi;true\n261;Pieks\xE4m\xE4ki;true\n262;Pielavesi;true\n263;Pietarsaari;true\n264;Pihtipudas;true\n267;Pirkkala;true\n269;Polvij\xE4rvi;true\n270;Pomarkku;true\n271;Pori;true\n272;Pornainen;true\n273;Porvoo;true\n274;Posio;true\n275;Pudasj\xE4rvi;true\n276;Pukkila;true\n279;Punkalaidun;true\n280;Puolanka;true\n281;Puumala;true\n282;Pyht\xE4\xE4;true\n283;Pyh\xE4joki;true\n284;Pyh\xE4j\xE4rvi;true\n285;Pyh\xE4nt\xE4;true\n286;Pyh\xE4ranta;true\n289;P\xE4lk\xE4ne;true\n290;P\xF6yty\xE4;true\n291;Raahe;true\n528;Raasepori;true\n292;Raisio;true\n293;Rantasalmi;true\n295;Ranua;true\n296;Rauma;true\n297;Rautalampi;true\n298;Rautavaara;true\n299;Rautj\xE4rvi;true\n300;Reisj\xE4rvi;true\n302;Riihim\xE4ki;true\n303;Ristiina;true\n304;Ristij\xE4rvi;true\n306;Rovaniemi;true\n307;Ruokolahti;true\n309;Ruovesi;true\n310;Rusko;true\n313;R\xE4\xE4kkyl\xE4;true\n315;Saarij\xE4rvi;true\n317;Salla;true\n318;Salo;true\n524;Saltvik;true\n529;Sastamala;true\n320;Sauvo;true\n321;Savitaipale;true\n322;Savonlinna;true\n324;Savukoski;true\n325;Sein\xE4joki;true\n326;Sievi;true\n327;Siikainen;true\n328;Siikajoki;true\n530;Siikalatva;true\n329;Siilinj\xE4rvi;true\n330;Simo;true\n331;Sipoo;true\n332;Siuntio;true\n333;Sodankyl\xE4;true\n334;Soini;true\n335;Somero;true\n336;Sonkaj\xE4rvi;true\n337;Sotkamo;true\n338;Sulkava;true\n344;Suomussalmi;true\n345;Suonenjoki;true\n346;Sysm\xE4;true\n347;S\xE4kyl\xE4;true\n349;Taipalsaari;true\n350;Taivalkoski;true\n351;Taivassalo;true\n352;Tammela;true\n354;Tampere;true\n355;Tarvasjoki;true\n357;Tervo;true\n358;Tervola;true\n359;Teuva;true\n360;Tohmaj\xE4rvi;true\n361;Toholampi;true\n363;Toivakka;true\n364;Tornio;true\n365;Turku;true\n368;Tuusniemi;true\n369;Tuusula;true\n370;Tyrn\xE4v\xE4;true\n373;Ulvila;true\n374;Urjala;true\n375;Utaj\xE4rvi;true\n376;Utsjoki;true\n378;Uurainen;true\n379;Uusikaarlepyy;true\n380;Uusikaupunki;true\n465;Vaala;true\n381;Vaasa;true\n383;Valkeakoski;true\n385;Valtimo;true\n197;Vantaa;true\n388;Varkaus;true\n390;Vehmaa;true\n393;Vesanto;true\n394;Vesilahti;true\n395;Veteli;true\n396;Vierem\xE4;true\n398;Vihti;true\n400;Viitasaari;true\n403;Vimpeli;true\n404;Virolahti;true\n405;Virrat;true\n440;V\xE5rd\xF6;true\n415;Ylitornio;true\n416;Ylivieska;true\n419;Yl\xF6j\xE4rvi;true\n420;Yp\xE4j\xE4;true\n422;\xC4ht\xE4ri;true\n423;\xC4\xE4nekoski;true\n"
+    headers:
+      Access-Control-Allow-Headers:
+      - Origin, Content-Type, Accept
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Request-Method:
+      - POST
+      Cache-Control:
+      - private
+      Content-Length:
+      - '5498'
+      Content-Type:
+      - text/html; charset=utf-8
+      Date:
+      - Sat, 03 Apr 2021 07:32:56 GMT
+      Server:
+      - Microsoft-IIS/8.5
+      X-AspNet-Version:
+      - 4.0.30319
+      X-AspNetMvc-Version:
+      - '4.0'
+    status:
+      code: 200
+      message: OK
+    url: https://www.omamobiili.com/pa_api/Station/GetCities
+version: 1

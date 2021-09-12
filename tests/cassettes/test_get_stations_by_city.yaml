@@ -1,0 +1,93 @@
+interactions:
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://www.omamobiili.com/pa_api/Station/GetStationsKuntaNameWithEmpty?cityId=19&kuntaNimi=Espoo&isCity=true
+  response:
+    body:
+      string: "317;St1, Nupuri Nupurinkalliontie 1, 110-tie;02.04.;1.611;1.711;1.477;60.2381525;24.5946492;19;Espoo;false;;\n2763;Neste
+        Oil Express, Lommila Espoontie 32;02.04.;1.623;1.713;1.483;60.221787;24.664601;19;Espoo;false;;\n1035;Shell,
+        Bemb\xF6le Bellinm\xE4ki 2, 110-tie;02.04.;1.637;1.767;1.497;60.2229144;24.672488;19;Espoo;false;;\n315;St1,
+        Bemb\xF6le Turuntie 203 (Re85 1.209), 110-tie;02.04.;1.622;1.712;1.482;60.2218711;24.6717007;19;Espoo;false;;\n1618;Neste
+        Oil, Mankkaa Sinikalliontie 1-3, 1-tie;02.04.;1.644;1.734;1.514;60.2045018;24.7668389;19;Espoo;false;;\n316;St1,
+        Latokaski Ohrakaskenm\xE4ki 2;02.04.;1.629;1.719;1.504;60.1737667;24.6616052;19;Espoo;false;;\n2435;St1,
+        Lepp\xE4vaara Hannu Olavinpojantie 3, 110-tie, Keh\xE4 I;02.04.;1.644;1.734;1.519;60.2138601;24.8104553;19;Espoo;false;;\n1986;Neste
+        Oil Express, Karakallio Tornihaukantie 1;02.04.;1.629;1.719;1.499;60.2292052;24.777288;19;Espoo;false;;\n2750;Neste
+        Oil Express, Kauklahti M\xE4nkimiehentie 3;02.04.;1.609;1.699;1.479;60.1846475;24.600985;19;Espoo;false;;\n1040;ShellExpress,
+        Kauklahti R\xE4\xE4velintie 1, Keh\xE4 III (E18);02.04.;1.604;1.704;1.474;60.1878365;24.5878109;19;Espoo;false;;\n1760;St1,
+        L\xE4hderanta Pitk\xE4j\xE4rventie 1;01.04.;1.639;1.729;1.509;60.2401985;24.7415589;19;Espoo;false;;\n314;St1,
+        Auroranportti Kyl\xE4nportti 16, Keh\xE4 III (E18);01.04.;1.638;1.728;1.498;60.2406;24.7001;19;Espoo;false;;\n1953;Ysi5,
+        Nihtisilta Kutojankulma 2;01.04.;1.629;1.719;1.509;60.2089872;24.7523663;19;Espoo;false;;\n1664;Neste
+        Oil, Viherlaakso Rajam\xE4nnynahde 1;01.04.;1.669;1.759;1.539;60.2261595;24.7426335;19;Espoo;false;;\n2811;Neste
+        Express, Laajalahti Turveradantie 13;01.04.;1.614;1.704;1.499;60.2028855;24.7860139;19;Espoo;false;;\n2699;ABC,
+        Juvankartanontie 33 (E85 1.229);01.04.;1.677;1.767;1.537;60.2699187;24.7572614;19;Espoo;false;;\n1038;Shell,
+        Lepp\xE4vaara Vanha maantie 2;01.04.;1.659;1.799;1.529;60.2208369;24.8082693;19;Espoo;false;;\n1042;Shell,
+        Vallikallio Vallikallionkatu 9, Keh\xE4 I;01.04.;1.664;1.794;1.539;60.227277;24.8239272;19;Espoo;false;;\n571;Teboil
+        Express, Lommila Lommilantie 12;01.04.;1.628;1.718;1.488;60.218797;24.660823;19;Espoo;false;;\n335;St1,
+        M\xE4kkyl\xE4 Turuntie 2 (Re85 1.229), 110-tie;01.04.;1.654;-;1.529;60.2244208;24.8492831;19;Espoo;false;;\n1617;Neste
+        Oil Express, Lommila Lommilanrinne 1;01.04.;1.623;1.713;1.483;60.2186555;24.6601665;19;Espoo;false;;\n2401;Teboil
+        Express, Lepp\xE4vaara/Perkkaa Hevosenkenk\xE4 2, Keh\xE4 I;01.04.;1.644;1.734;1.519;60.2180226;24.8174763;19;Espoo;false;;\n2394;Teboil
+        Express, M\xE4kkyl\xE4 Turuntie 14, 110-tie;01.04.;1.644;1.734;1.519;60.2204862;24.8387061;19;Espoo;false;;\n318;St1,
+        Olarinluoma Olarinluoma 17;01.04.;1.619;1.709;1.509;60.1803404;24.7607429;19;Espoo;false;;\n1952;St1,
+        Karamalmi - KII Karapellontie 11 (RE85 1.209);31.03.;1.639;-;1.509;60.2171638;24.7510724;19;Espoo;false;;\n1034;ShellExpress,
+        Sep\xE4nkyl\xE4 Palomiehentie 2  ;31.03.;1.634;1.734;1.504;60.2085902;24.7432381;19;Espoo;false;;\n2760;ABC,
+        Karaportti Karaniityntie 2 (E85 1.229);31.03.;1.659;1.749;1.529;60.2244473;24.7603111;19;Espoo;false;;\n1659;Neste,
+        Muurala Nimismiehenpelto 1;31.03.;1.679;1.769;1.539;60.2148852;24.6522129;19;Espoo;false;;\n84;ABC,
+        Nihtisilta 4;31.03.;1.659;1.749;1.529;60.2072882;24.7494244;19;Espoo;false;;\n2039;Ysi5,
+        Suvela Tuomarilantie 2;31.03.;1.679;1.769;1.639;60.2070658;24.6746883;19;Espoo;false;;\n1762;ABC,
+        Mikkel\xE4 Mikkel\xE4nkallio 1 (E85 1.229);31.03.;1.659;1.749;1.529;60.2090475;24.6350184;19;Espoo;false;;\n2799;Neste
+        Express, Otaniemi Miestentie 2;31.03.;1.654;1.744;1.514;60.1797762;24.8266336;19;Espoo;false;;\n1661;Neste
+        Oil, Olari Uuskartanontie 2;31.03.;1.709;1.799;1.569;60.1701955;24.7471593;19;Espoo;false;;\n1663;Neste
+        Oil, Suomenoja Martinsillantie 2 B;31.03.;1.709;1.799;1.569;60.1615238;24.7007257;19;Espoo;false;;\n1658;Neste,
+        Matinkyl\xE4 Gr\xE4sanlaakso 2;31.03.;1.709;1.799;1.569;60.1637559;24.7530214;19;Espoo;false;;\n573;Teboil,
+        Niittykumpu Luomankuja 2;30.03.;1.629;1.719;1.519;60.1712387;24.7607545;19;Espoo;false;;\n1987;Neste
+        Oil Express, Friisil\xE4 Piispanm\xE4entie 2;30.03.;1.644;1.734;1.514;60.1640723;24.7257984;19;Espoo;false;;\n2371;Teboil
+        Express, Friisil\xE4 Kuitinm\xE4entie 26;30.03.;1.643;1.733;1.513;60.162005;24.7205213;19;Espoo;false;;\n1041;Shell,
+        Suomenoja Finnoonristi 1;30.03.;1.668;1.798;1.529;60.1615286;24.705896;19;Espoo;false;;\n320;St1,
+        Suomenoja Martinsillantie 10 (re85 1.209);30.03.;1.644;-;1.519;60.1590641;24.693005;19;Espoo;false;;\n572;Teboil,
+        Espoonlahti Kivenlahdentie 2;30.03.;1.639;1.729;1.509;60.1518711;24.6644397;19;Espoo;false;;\n2740;ABC,
+        Kivenlahti Kivenlahdentie 7 (E85 1.229);30.03.;1.664;1.754;1.539;60.1525651;24.6607878;19;Espoo;false;;\n2015;Neste
+        Oil Express, Kivenlahti Maininkitie 11;30.03.;1.634;1.724;1.504;60.1532613;24.6485899;19;Espoo;false;;\n570;Teboil,
+        Kivenlahti Vanha Jorvaksentie 1;30.03.;1.644;1.734;1.514;60.1567204;24.6269296;19;Espoo;false;;\n2378;Teboil
+        Express, Kiltakallio Kiltakuja 2;30.03.;1.634;1.724;1.504;60.1990661;24.6558049;19;Espoo;false;;\n1039;Shell,
+        Olari Komeetankatu 1;30.03.;1.564;1.694;1.504;60.1678563;24.7348352;19;Espoo;false;;\n2638;St1,
+        Mankkaantie 2;30.03.;1.574;1.664;1.474;60.1948485;24.7668101;19;Espoo;false;;\n1763;ABC,
+        Niittykumpu Niittymaantie 4 (E85 1.189);30.03.;1.644;1.734;1.534;60.1710569;24.7770915;19;Espoo;false;;\n2832;Teboil
+        Express, Muurala Mehil\xE4isenkuja 1;30.03.;1.572;1.662;1.432;60.2138133;24.630534;19;Espoo;false;;\n2226;Neste
+        Oil, Nihtisilta Nihtisillankuja 2;-;-;-;-;60.2089059;24.7589585;19;Espoo;false;;\n2439;Neste,
+        Mankki Lapinkyl\xE4ntie 5, Keh\xE4 III (E18);-;-;-;-;60.1918741;24.5703251;19;Espoo;false;;\n1657;Neste
+        Oil, Espoonlahti   Kivenlahdentie 5;-;-;-;-;;;19;Espoo;false;;\n1662;Neste
+        Oil, Otaniemi Miestentie 1, Keh\xE4 I;-;-;-;-;60.17836269999999;24.82759550000003;19;Espoo;false;;\n1757;ABC
+        Deli, Espoonlahti N\xF6ykki\xF6nkatu 2;-;-;-;-;60.1553732;24.6617548;19;Espoo;false;;\n1764;ABC
+        Deli, Tapiola Kalevalantie 3 (E85 1.139), Keh\xE4 I;-;-;-;-;60.185695;24.8072494;19;Espoo;false;;\n1036;Shell,
+        Haukilahti Ahventie 2;-;-;-;-;60.1663405;24.7731717;19;Espoo;false;;\n1037;Shell,
+        Lahnus Lahnuksentie 2;-;-;-;-;60.317416;24.7143293;19;Espoo;false;;\n2624;ABC,
+        Otaniemi Miestentie 1;-;-;-;-;60.17845269999999;24.82759550000003;19;Espoo;false;;\n319;St1,
+        Soukka Soukantie 13;-;-;-;-;60.1420329;24.6718035;19;Espoo;false;;\n"
+    headers:
+      Access-Control-Allow-Headers:
+      - Origin, Content-Type, Accept
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Request-Method:
+      - POST
+      Cache-Control:
+      - private
+      Content-Length:
+      - '6241'
+      Content-Type:
+      - text/html; charset=utf-8
+      Date:
+      - Sat, 03 Apr 2021 07:32:57 GMT
+      Server:
+      - Microsoft-IIS/8.5
+      X-AspNet-Version:
+      - 4.0.30319
+      X-AspNetMvc-Version:
+      - '4.0'
+    status:
+      code: 200
+      message: OK
+    url: https://www.omamobiili.com/pa_api/Station/GetStationsKuntaNameWithEmpty?cityId=19&kuntaNimi=Espoo&isCity=true
+version: 1
