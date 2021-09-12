@@ -81,3 +81,9 @@ repos:
     rev: v0.15.1
     hooks:
       - id: gitlint
+
+  - repo: https://github.com/jackdewinter/pymarkdown
+    rev: fea56671643175f526ad145fca060d2cadfec81b
+    hooks:
+      - id: pymarkdown
+        exclude: ^CHANGELOG\.md$
