@@ -1,3 +1,5 @@
+default_stages: [commit]
+
 repos:
 
   - repo: https://github.com/psf/black
@@ -81,6 +83,7 @@ repos:
     rev: v0.15.1
     hooks:
       - id: gitlint
+        stages: [commit-msg]
 
   - repo: https://github.com/jackdewinter/pymarkdown
     rev: fea56671643175f526ad145fca060d2cadfec81b
