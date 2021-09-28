@@ -13,6 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-python@v2
+        id: setup-python
         # use Python version matching pytype's python_version for simplicity
         with:
           python-version: 3.8
@@ -23,6 +24,7 @@ jobs:
             venv
           key: >-
             pip+venv
+            ${{steps.setup-python.outputs.python-version}}
             ${{hashFiles(
                 'requirements-dev.txt', 'requirements-test.txt', 'setup.cfg'
             )}}
