@@ -66,8 +66,8 @@ jobs:
           fi
 
           # user.* for gitlint
-          git config user.name $(git log -1 --format=format:%an)
-          git config user.email $(git log -1 --format=format:%ae)
+          git config user.name "$(git log -1 --format=format:%an)"
+          git config user.email "$(git log -1 --format=format:%ae)"
 
           rc=0
           for id in $(jq --raw-output '.[].id' <"$commits_json"); do
