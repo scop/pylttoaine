@@ -74,7 +74,7 @@ repos:
         stages: [commit-msg]
 
   - repo: https://github.com/jackdewinter/pymarkdown
-    rev: fea56671643175f526ad145fca060d2cadfec81b
+    rev: 0.9.2
     hooks:
       - id: pymarkdown
         exclude: ^CHANGELOG\.md$
