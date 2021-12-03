@@ -68,9 +68,9 @@ jobs:
             echo "Linting commit $id message..."
             set +e
             pre-commit run gitlint \
-              --color=always \
-              --hook-stage=commit-msg \
-              --commit-msg-filename="$commit_txt"
+              --color always \
+              --hook-stage commit-msg \
+              --commit-msg-filename "$commit_txt"
             ((rc+=$?))
             set -e
           done
@@ -78,7 +78,7 @@ jobs:
           # Other pre-commit checks
 
           set +e
-          pre-commit run --color=always --all-files
+          pre-commit run --color always --all-files
           ((rc+=$?))
           set -e
 
