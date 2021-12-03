@@ -66,21 +66,16 @@ jobs:
             jq --raw-output ".[] | select(.id==\"$id\") | .message" \
               <"$commits_json" >"$commit_txt"
             echo "Linting commit $id message..."
-            set +e
             pre-commit run gitlint \
               --color always \
               --hook-stage commit-msg \
-              --commit-msg-filename "$commit_txt"
-            ((rc+=$?))
-            set -e
+              --commit-msg-filename "$commit_txt" \
+              || rc=1
           done
 
           # Other pre-commit checks
 
-          set +e
-          pre-commit run --color always --all-files
-          ((rc+=$?))
-          set -e
+          pre-commit run --color always --all-files || rc=1
 
           exit $rc
 
