@@ -53,17 +53,6 @@ repos:
         types: [python]
         require_serial: true
 
-      - id: pytype
-        name: pytype
-        language: python
-        language_version: "3.8"
-        additional_dependencies:
-          - |-
-            venv-run ==0.1.0
-        entry: venv-run pytype
-        types: [python]
-        require_serial: true
-
       - id: pylint
         name: pylint
         language: python
