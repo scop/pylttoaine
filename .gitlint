@@ -7,4 +7,4 @@ ignore-stdin = true
 contrib = contrib-title-conventional-commits
 
 [ignore-body-lines]
-regex = ^(Co-Authored-By:|(Refs )?https?://)
+regex = ^(Co-authored-by:|(Refs )?https?://)
