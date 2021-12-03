@@ -65,7 +65,7 @@ jobs:
           for id in $(jq --raw-output '.[].id' <"$commits_json"); do
             jq --raw-output ".[] | select(.id==\"$id\") | .message" \
               <"$commits_json" >"$commit_txt"
-            echo "Linting commit $id message..."
+            echo "Commit $id:"
             pre-commit run gitlint \
               --color always \
               --hook-stage commit-msg \
