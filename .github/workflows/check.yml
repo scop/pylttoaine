@@ -102,9 +102,7 @@ jobs:
           key: >-
             pip+tox
             ${{ matrix.python-version }}
-            ${{ hashFiles(
-                'requirements-dev.txt', 'requirements-test.txt', 'setup.cfg'
-            ) }}
+            ${{ hashFiles('requirements-test.txt', 'setup.cfg') }}
       - name: Install dependencies
         run: |
           python3 -m pip install tox-gh-actions
