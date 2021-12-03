@@ -20,16 +20,16 @@ jobs:
             venv
           key: >-
             pip+venv
-            ${{steps.setup-python.outputs.python-version}}
-            ${{hashFiles(
+            ${{ steps.setup-python.outputs.python-version }}
+            ${{ hashFiles(
                 'requirements-dev.txt', 'requirements-test.txt', 'setup.cfg'
-            )}}
+            ) }}
       - uses: actions/cache@v2
         with:
           path: ~/.cache/pre-commit
           key: >-
             pre-commit
-            ${{hashFiles('.pre-commit-config.yaml')}}
+            ${{ hashFiles('.pre-commit-config.yaml') }}
       - name: Install dependencies
         run: |
           set -euxo pipefail
@@ -52,12 +52,12 @@ jobs:
           # For push, commits are available directly in github.event.commits.
           # For pull_request they're not: grab them from API, transform fields
           # we want to a similar structure as pushes are.
-          if [[ "${{github.event.commits}}" ]]; then
+          if [[ "${{ github.event.commits }}" ]]; then
             cat <<\EOF >"$commits_json"
-            ${{toJSON(github.event.commits)}}
+            ${{ toJSON(github.event.commits) }}
           EOF
           else
-            curl -fSsL ${{github.event.pull_request.commits_url}} | \
+            curl -fSsL ${{ github.event.pull_request.commits_url }} | \
               jq '[.[] | {id: .sha, message: .commit.message}]' >"$commits_json"
           fi
 
@@ -100,7 +100,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-python@v2
         with:
-          python-version: ${{matrix.python-version}}
+          python-version: ${{ matrix.python-version }}
       - uses: actions/cache@v2
         with:
           path: |
@@ -108,10 +108,10 @@ jobs:
             .tox
           key: >-
             pip+tox
-            ${{matrix.python-version}}
-            ${{hashFiles(
+            ${{ matrix.python-version }}
+            ${{ hashFiles(
                 'requirements-dev.txt', 'requirements-test.txt', 'setup.cfg'
-            )}}
+            ) }}
       - name: Install dependencies
         run: |
           python3 -m pip install tox-gh-actions
