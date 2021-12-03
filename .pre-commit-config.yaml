@@ -22,21 +22,21 @@ repos:
     hooks:
       - id: flake8
         additional_dependencies:
-          - |-
+          - #
             pycodestyle ==2.7.0
-          - |-
+          - #
             pyflakes ==2.3.1
-          - |-
+          - #
             flake8-bandit ==2.1.2
-          - |-
+          - #
             bandit ==1.7.0
-          - |-
+          - #
             flake8-bugbear ==21.4.3
-          - |-
+          - #
             flake8-comprehensions ==3.6.1
-          - |-
+          - #
             flake8-docstrings ==1.6.0
-          - |-
+          - #
             pydocstyle ==6.1.1
 
   - repo: local
@@ -45,7 +45,7 @@ repos:
         name: mypy
         language: python
         additional_dependencies:
-          - |-
+          - #
             venv-run ==0.1.0
         entry: venv-run mypy
         types: [python]
@@ -55,7 +55,7 @@ repos:
         name: pylint
         language: python
         additional_dependencies:
-          - |-
+          - #
             venv-run ==0.1.0
         entry: venv-run pylint
         types: [python]
