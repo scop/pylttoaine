@@ -6,3 +6,7 @@
 /dataSources.local.xml
 # Editor-based HTTP Client requests
 /httpRequests/
+
+# Pylttoaine additions:
+# - misc.xml would be nice for SDK version, but contains local project-jdk-name
+/misc.xml

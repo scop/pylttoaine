@@ -4,5 +4,4 @@
 /.tox/
 /build/
 /dist/
-/pip-wheel-metadata/
 __pycache__/
