@@ -52,6 +52,7 @@ jobs:
           # For push, commits are available directly in github.event.commits.
           # For pull_request they're not: grab them from API, transform fields
           # we want to a similar structure as pushes are.
+          # Note: API does not work for private projects, gives 404.
           if [[ "${{ github.event.commits }}" ]]; then
             cat <<\EOF >"$commits_json"
             ${{ toJSON(github.event.commits) }}
