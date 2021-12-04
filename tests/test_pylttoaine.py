@@ -70,7 +70,7 @@ async def test_submit() -> None:
     """
     Test submitting updated prices.
 
-    Note: when running without an up to date cassette, make sure to update the
+    Note: when running without an up-to-date cassette, make sure to update the
     submitted data in order to not send bogosity to the actual service!
     """
     async with ClientSession() as session:

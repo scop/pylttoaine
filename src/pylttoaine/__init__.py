@@ -209,7 +209,7 @@ async def _iter_rows(response: ClientResponse) -> AsyncGenerator[List[str], None
         line_str = line.decode(encoding=encoding, errors="replace")
         # Errors are given with 200 OK and exception in response body, detect naively...
         if "Exception: " in line_str:
-            # ...and synthetize response error as if it came with an error status.
+            # ...and synthesize response error as if it came with an error status.
             message = line_str.strip()
             async for line in response.content:
                 pass
@@ -221,12 +221,12 @@ async def _iter_rows(response: ClientResponse) -> AsyncGenerator[List[str], None
                 headers=response.headers,
             )
         buffer.write(line_str)
-        endpos = buffer.tell()
+        end_pos = buffer.tell()
         buffer.seek(0)
         try:
             row = next(csv_reader)
         except StopIteration:
-            buffer.seek(endpos)
+            buffer.seek(end_pos)
             continue
         yield row
         buffer.seek(0)
