@@ -6,7 +6,7 @@ from typing import Iterator, Optional
 
 
 @dataclass
-class _Base:  # pylint: disable=too-few-public-methods
+class _Base:
     def __iter__(self) -> Iterator:  # type: ignore[type-arg]
         """Iterate over field values."""
         return iter(astuple(self))
