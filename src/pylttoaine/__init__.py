@@ -57,7 +57,7 @@ async def get_stations_by_location(
         cityId=f"{coordinates.latitude:f}/{coordinates.longitude:f}",
         # magic value for kuntaNimi triggering coordinate/distance based search?
         kuntaNimi="Lähimmät asemat",
-        isCity="%d" % max_distance_km,
+        isCity=str(max_distance_km),
     )
     async for station in _get_stations(session, params):
         yield station
@@ -75,7 +75,7 @@ async def get_stations_by_city(
     no prices available, city_name needs to be passed as well.
     """
     params = _QueryParams(
-        cityId="%d" % city_id,
+        cityId=str(city_id),
         kuntaNimi=city_name or "",
         isCity="true",
     )

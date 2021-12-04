@@ -15,7 +15,7 @@ repos:
     rev: v2.24.0
     hooks:
       - id: pyupgrade
-        args: [--py38-plus, --keep-percent-format]
+        args: [--py38-plus]
 
   - repo: https://github.com/PyCQA/flake8
     rev: 3.9.2

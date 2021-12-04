@@ -12,7 +12,7 @@ def get_version() -> str:
         for line in file_:
             if line.startswith("__version__"):
                 return line.split("=")[-1].strip("\"'\r\n ")
-    raise Exception("No __version__ in %s!" % filename)
+    raise Exception(f"No __version__ in {filename}!")
 
 
 if __name__ == "__main__":
