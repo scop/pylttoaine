@@ -17,7 +17,7 @@ Usage in a nutshell:
 * invoke methods on the client.
 
 The package can be also invoked as a command line tool, like `python3
--m pylttoaine`, or simply `pytekukko`. Major functionalities of the
+-m pylttoaine`, or simply `pylttoaine`. Major functionalities of the
 package are available on the command line this way. Invoke it with
 `--help` for usage information.
 
