@@ -1,2 +1,5 @@
+[build-system]
+requires = ["setuptools >=42", "wheel"]
+
 [tool.black]
 target-version = ["py38", "py39", "py310"]
