@@ -211,7 +211,7 @@ async def _iter_rows(response: ClientResponse) -> AsyncGenerator[List[str], None
         if "Exception: " in line_str:
             # ...and synthesize response error as if it came with an error status.
             message = line_str.strip()
-            async for line in response.content:
+            async for _ in response.content:
                 pass
             raise ClientResponseError(
                 request_info=response.request_info,
