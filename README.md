@@ -12,14 +12,14 @@ API.
 
 Usage in a nutshell:
 
-* construct an aiohttp [`ClientSession`](https://docs.aiohttp.org/en/stable/client_reference.html#client-session),
-* construct a `Pylttoaine` client with it,
-* invoke methods on the client.
+- construct an aiohttp [`ClientSession`](https://docs.aiohttp.org/en/stable/client_reference.html#client-session),
+- construct a `Pylttoaine` client with it,
+- invoke methods on the client.
 
-The package can be also invoked as a command line tool, like `python3
--m pylttoaine`, or simply `pylttoaine`. Major functionalities of the
-package are available on the command line this way. Invoke it with
-`--help` for usage information.
+The package can be also invoked as a command line tool, like
+`python3 -m pylttoaine`, or simply `pylttoaine`. Major functionalities of the
+package are available on the command line this way. Invoke it with `--help` for
+usage information.
 
 ## Disclaimer
 
