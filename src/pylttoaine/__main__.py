@@ -118,9 +118,8 @@ async def run_cli() -> None:  # pylint: disable=too-many-branches,too-many-local
 
 
 def main() -> None:
-    """Set up event loop and run entry point."""
-    loop = asyncio.get_event_loop()
-    loop.run_until_complete(run_cli())
+    """Run entry point."""
+    asyncio.run(run_cli())
 
 
 if __name__ == "__main__":
