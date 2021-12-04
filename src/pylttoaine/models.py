@@ -5,6 +5,7 @@ from datetime import date
 from typing import Iterator, Optional
 
 
+@dataclass
 class _Base:  # pylint: disable=too-few-public-methods
     def __iter__(self) -> Iterator:  # type: ignore[type-arg]
         """Iterate over field values."""
