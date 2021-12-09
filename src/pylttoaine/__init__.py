@@ -17,7 +17,7 @@ from aiohttp import ClientResponse, ClientResponseError, ClientSession
 from . import validators
 from .models import City, Coordinates, Prices, Station, _QueryParams
 
-__version__ = "0.9.0"
+__version__ = "0.1.0"
 
 BASE_URL = "https://www.omamobiili.com/pa_api/"
 EUROPE_HELSINKI = zoneinfo.ZoneInfo("Europe/Helsinki")
