@@ -88,7 +88,8 @@ jobs:
           - "3.8"
           - "3.9"
           - "3.10"
-          - "3.11.0-alpha - 3.11"
+          # https://github.com/GrahamDumpleton/wrapt/issues/196
+          #- "3.11.0-alpha - 3.11"
           - "pypy-3.8"
     steps:
       - uses: actions/checkout@v2
