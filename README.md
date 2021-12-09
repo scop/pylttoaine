@@ -24,4 +24,4 @@ usage information.
 ## Disclaimer
 
 This package is not supported by or endorsed by polttoaine.info. Do
-not bother them with issues related to it.
+not bother them with questions or issues related to it.
