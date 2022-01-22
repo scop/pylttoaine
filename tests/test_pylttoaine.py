@@ -14,7 +14,6 @@ from pylttoaine import (
 from pylttoaine.models import City, Coordinates, Prices, Station
 
 
-@pytest.mark.asyncio
 @pytest.mark.vcr
 async def test_get_cities() -> None:
     """Test getting cities."""
@@ -25,7 +24,6 @@ async def test_get_cities() -> None:
     assert all(isinstance(x, City) for x in cities)
 
 
-@pytest.mark.asyncio
 @pytest.mark.vcr
 async def test_get_stations_by_city() -> None:
     """Test getting stations by city."""
@@ -36,7 +34,6 @@ async def test_get_stations_by_city() -> None:
     assert all(isinstance(x, Station) for x in stations)
 
 
-@pytest.mark.asyncio
 @pytest.mark.vcr
 async def test_get_stations_by_location() -> None:
     """Test getting stations by location."""
@@ -50,7 +47,6 @@ async def test_get_stations_by_location() -> None:
     assert all(isinstance(x, Station) for x in stations)
 
 
-@pytest.mark.asyncio
 @pytest.mark.vcr
 async def test_get_stations_by_location_error() -> None:
     """Test error getting stations by location."""
@@ -64,7 +60,6 @@ async def test_get_stations_by_location_error() -> None:
             ]
 
 
-@pytest.mark.asyncio
 @pytest.mark.vcr
 async def test_submit() -> None:
     """

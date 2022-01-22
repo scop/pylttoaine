@@ -5,4 +5,5 @@ requires = ["setuptools >=42", "wheel"]
 target-version = ["py38", "py39", "py310"]
 
 [tool.pytest.ini_options]
+asyncio_mode = "auto"
 filterwarnings = ["error"]
