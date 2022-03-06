@@ -46,7 +46,7 @@ repos:
         language: python
         additional_dependencies:
           - #
-            venv-run ==0.1.0
+            venv-run ==0.1.2
         entry: venv-run mypy
         types: [python]
         require_serial: true
@@ -56,7 +56,7 @@ repos:
         language: python
         additional_dependencies:
           - #
-            venv-run ==0.1.0
+            venv-run ==0.1.2
         entry: venv-run pylint
         types: [python]
         require_serial: true
