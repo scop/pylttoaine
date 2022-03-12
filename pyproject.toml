@@ -18,6 +18,30 @@ disallow_any_decorated = true
 disallow_any_explicit = true
 warn_unreachable = true
 
+[tool.pylint.MASTER]
+jobs = 2
+load-plugins = [
+  "pylint_strict_informational",
+]
+persistent = false
+py-version = "3.8"
+[tool.pylint."MESSAGES CONTROL"]
+disable = [
+  "duplicate-code",  # examples, https://github.com/PyCQA/pylint/issues/214
+  "fixme",
+  "format", # handled by black
+  "missing-class-docstring", # handled by pydocstyle
+  "missing-function-docstring", # handled by pydocstyle
+  "missing-module-docstring", # handled by pydocstyle
+  "wrong-import-order", # handled by isort
+]
+enable = [
+  "use-symbolic-message-instead",
+  "useless-suppression",
+]
+[tool.pylint.REPORTS]
+score = false
+
 [tool.pytest.ini_options]
 asyncio_mode = "auto"
 filterwarnings = ["error"]
