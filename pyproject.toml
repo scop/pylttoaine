@@ -59,6 +59,8 @@ commands =
   {envpython} -X dev -bb -W error -m pylttoaine version
 [testenv:py311]
 setenv =
+  # https://github.com/aio-libs/aiohttp/issues/6600
+  AIOHTTP_NO_EXTENSIONS = 1
   # https://github.com/aio-libs/yarl/issues/680
   YARL_NO_EXTENSIONS = 1
 [testenv:pyston3]
