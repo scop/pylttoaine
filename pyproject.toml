@@ -63,6 +63,8 @@ setenv =
   AIOHTTP_NO_EXTENSIONS = 1
   # https://github.com/aio-libs/yarl/issues/680
   YARL_NO_EXTENSIONS = 1
+  # Similarly as for aiohttp and yarl
+  FROZENLIST_NO_EXTENSIONS = 1
 [testenv:pyston3]
 basepython = pyston3
 [gh-actions]
