@@ -55,8 +55,8 @@ skip_missing_interpreters = true
 deps = -rrequirements-test.txt
 commands =
   {envpython} -X dev -bb -m pytest {posargs}
-  {envpython} -X dev -bb -W error -m pylttoaine --help
-  {envpython} -X dev -bb -W error -m pylttoaine version
+  {envpython} -X dev -bb -W error {env:PYLTTOAINE_AIOHTTP_CGI_W:} -m pylttoaine --help
+  {envpython} -X dev -bb -W error {env:PYLTTOAINE_AIOHTTP_CGI_W:} -m pylttoaine version
 [testenv:py311]
 setenv =
   # https://github.com/aio-libs/aiohttp/issues/6600
@@ -65,6 +65,8 @@ setenv =
   YARL_NO_EXTENSIONS = 1
   # Similarly as for aiohttp and yarl
   FROZENLIST_NO_EXTENSIONS = 1
+  # https://github.com/aio-libs/aiohttp/pull/6708
+  PYLTTOAINE_AIOHTTP_CGI_W = -W "default:'cgi' is deprecated:DeprecationWarning:aiohttp.helpers"
 [testenv:pyston3]
 basepython = pyston3
 [gh-actions]
