@@ -18,7 +18,7 @@ disallow_any_decorated = true
 disallow_any_explicit = true
 warn_unreachable = true
 
-[tool.pylint.MASTER]
+[tool.pylint.main]
 jobs = 2
 load-plugins = [
   "pylint_strict_informational",
@@ -26,7 +26,7 @@ load-plugins = [
 persistent = false
 py-version = "3.8"
 
-[tool.pylint."MESSAGES CONTROL"]
+[tool.pylint."messages control"]
 disable = [
   "duplicate-code", # examples, https://github.com/PyCQA/pylint/issues/214
   "fixme",
@@ -39,7 +39,7 @@ disable = [
 ]
 enable = ["use-symbolic-message-instead", "useless-suppression"]
 
-[tool.pylint.REPORTS]
+[tool.pylint.reports]
 score = false
 
 [tool.pytest.ini_options]
