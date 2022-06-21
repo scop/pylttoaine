@@ -25,20 +25,20 @@ load-plugins = [
 ]
 persistent = false
 py-version = "3.8"
+
 [tool.pylint."MESSAGES CONTROL"]
 disable = [
-  "duplicate-code",  # examples, https://github.com/PyCQA/pylint/issues/214
+  "duplicate-code", # examples, https://github.com/PyCQA/pylint/issues/214
   "fixme",
   "format", # handled by black
   "missing-class-docstring", # handled by pydocstyle
   "missing-function-docstring", # handled by pydocstyle
   "missing-module-docstring", # handled by pydocstyle
   "wrong-import-order", # handled by isort
+
 ]
-enable = [
-  "use-symbolic-message-instead",
-  "useless-suppression",
-]
+enable = ["use-symbolic-message-instead", "useless-suppression"]
+
 [tool.pylint.REPORTS]
 score = false
 
