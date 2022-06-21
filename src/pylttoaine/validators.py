@@ -12,8 +12,7 @@ from typing import Optional, Union
 
 def max_distance_km(value: Union[str, int]) -> int:
     """Validate max_distance_km."""
-    int_value = int(value)
-    if int_value < 1:
+    if (int_value := int(value)) < 1:
         raise ValueError("max distance km must be >= 1")
     return int_value
 
@@ -38,7 +37,6 @@ def price(value: Union[str, float, None]) -> Optional[float]:
     """Validate price."""
     if value is None:
         return None
-    float_value = float(value)
-    if float_value > 0:
+    if (float_value := float(value)) > 0:
         return float_value
     raise ValueError("price must be > 0")

@@ -21,6 +21,15 @@ warn_unreachable = true
 [tool.pylint.main]
 jobs = 2
 load-plugins = [
+  "pylint.extensions.check_elif",
+  "pylint.extensions.code_style",
+  "pylint.extensions.comparison_placement",
+  "pylint.extensions.eq_without_hash",
+  "pylint.extensions.for_any_all",
+  "pylint.extensions.no_self_use",
+  "pylint.extensions.overlapping_exceptions",
+  "pylint.extensions.private_import",
+  "pylint.extensions.redefined_loop_name",
   "pylint_strict_informational",
 ]
 persistent = false
