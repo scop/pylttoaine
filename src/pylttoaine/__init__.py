@@ -15,7 +15,13 @@ except ImportError:  # Python < 3.9
 from aiohttp import ClientResponse, ClientResponseError, ClientSession
 
 from . import validators
-from .models import City, Coordinates, Prices, Station, _QueryParams
+from .models import (  # pylint: disable=import-private-name # https://github.com/PyCQA/pylint/issues/7078
+    City,
+    Coordinates,
+    Prices,
+    Station,
+    _QueryParams,
+)
 
 __version__ = "0.1.0"
 
