@@ -30,10 +30,10 @@ load-plugins = [
   "pylint.extensions.overlapping_exceptions",
   "pylint.extensions.private_import",
   "pylint.extensions.redefined_loop_name",
-  "pylint_strict_informational",
 ]
 persistent = false
 py-version = "3.8"
+fail-on = ["I"]
 
 [tool.pylint."messages control"]
 disable = [
