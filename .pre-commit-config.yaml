@@ -65,6 +65,8 @@ repos:
     rev: v1.12.0
     hooks:
       - id: typos
+        # TODO: to .typos.toml, https://github.com/crate-ci/typos/issues/347
+        exclude: ^tests/cassettes/
 
   - repo: https://github.com/jorisroovers/gitlint
     rev: v0.17.0
