@@ -15,7 +15,7 @@ pydocstyle ==6.1.1
 
 isort ==5.10.1
 
-mypy ==0.910
+mypy ==0.981
 
 pylint ==2.15.3
 
